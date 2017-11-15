@@ -33,8 +33,8 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage',
-  }
+    view: 'homepage'
+  },
 
   'get /api/random-quote': 'QuoteController.getQuote',
   'get /api/protected/random-quote': 'QuoteController.getProtectedQuote'
